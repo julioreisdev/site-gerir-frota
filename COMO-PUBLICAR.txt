@@ -1,0 +1,24 @@
+SITE GERIR FROTA — COMO PUBLICAR
+
+Conteúdo da pasta
+  index.html                 Página inicial
+  o-sistema.html             O sistema (módulos, perfis, 100% web)
+  servicos.html              Autorização, saldo de contratos, rastreabilidade, manutenções
+  prestacao-de-contas.html   Planilhas para o TCE-PI
+  quem-somos.html            Empresa e como trabalhamos
+  contato.html               Contato
+  demonstracao/index.html    Landing page para campanhas (endereço: seudominio/demonstracao)
+  css/, js/, assets/         Estilo, menu do celular e imagens — não renomeie
+
+Opção mais simples (gratuita): Netlify Drop
+  1. Descompacte o arquivo .zip.
+  2. Acesse https://app.netlify.com/drop e arraste a PASTA inteira.
+  3. O site fica no ar na hora, com um endereço provisório.
+  4. Em "Domain settings", adicione seu domínio (ex.: gerirfrota.com.br) e copie
+     os servidores DNS indicados para o painel do Registro.br.
+
+Hospedagem já contratada (Hostinger, Locaweb etc.)
+  Envie todo o conteúdo desta pasta para a pasta public_html pelo gerenciador de arquivos.
+
+Para alterar textos: abra o .html em um editor de texto (Bloco de Notas, VS Code),
+procure a frase e troque. Mantenha as tags < > como estão.

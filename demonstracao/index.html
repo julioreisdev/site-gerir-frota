@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Agende uma demonstração – Gerir Frota</title>
+<meta name="description" content="Gerir Frota: do abastecimento à prestação de contas. Agende uma demonstração do sistema de gestão da frota municipal.">
+<meta property="og:title" content="Gerir Frota – Agende uma demonstração">
+<meta property="og:image" content="../assets/marca-gerir-frota.jpg">
+<meta name="theme-color" content="#001F4E">
+<link rel="icon" type="image/png" href="../assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&amp;family=Public+Sans:wght@400;500;600;700&amp;display=swap">
+<style>
+body{margin:0;background:#ffffff}
+a{color:#005FCC}a:hover{color:#001F4E}
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px;box-sizing:border-box}
+.hd{font-family:'Outfit',system-ui,sans-serif;font-weight:700;letter-spacing:-0.015em}
+.eyb{font-size:13px;font-weight:700;letter-spacing:0.22em;text-transform:uppercase;color:#005FCC}
+.row{display:flex;flex-wrap:wrap;gap:56px;align-items:center}
+.col{flex:1 1 420px;min-width:0}
+.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.grid5{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:16px}
+.btn-p{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:0 30px;border-radius:999px;background:#005FCC;color:#fff;font-weight:700;font-size:17px;text-decoration:none}
+.btn-p:hover{background:#001F4E;color:#fff}
+.btn-o{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:0 30px;border-radius:999px;background:#fff;color:#001F4E;font-weight:700;font-size:17px;text-decoration:none;border:2px solid #001F4E}
+.btn-o:hover{background:#EEF3FB;color:#001F4E}
+.btn-w{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:0 30px;border-radius:999px;background:#fff;color:#001F4E;font-weight:700;font-size:17px;text-decoration:none}
+.btn-w:hover{background:#DCE8FB;color:#001F4E}
+.ico{width:56px;height:56px;border-radius:50%;background:#DCE8FB;color:#001F4E;display:flex;align-items:center;justify-content:center;flex:none}
+.ico svg{width:26px;height:26px}
+.card{background:#F2F5FA;border-top:4px solid #005FCC;padding:26px 24px;box-sizing:border-box}
+.nav a{color:#001F4E;text-decoration:none;font-weight:600}
+.nav a:hover{color:#005FCC}
+.foot a{color:#C9D6EE;text-decoration:none}
+.foot a:hover{color:#ffffff}
+.chk{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:14px;font-size:17px;line-height:1.5}
+.chk li{display:flex;gap:12px;align-items:flex-start}
+@media (max-width:900px){
+.grid3{grid-template-columns:minmax(0,1fr)}
+.grid5{grid-template-columns:minmax(0,1fr)}
+.nav{display:none !important}
+.h1{font-size:42px !important}
+.h2{font-size:32px !important}
+.sec{padding-top:64px !important;padding-bottom:64px !important}
+.hidem{display:none !important}
+}
+
+body{padding-bottom:88px}
+</style>
+</head>
+<body>
+
+<div style="font-family:'Public Sans',system-ui,sans-serif;color:#1A2440;background:#ffffff;position:relative">
+
+<!-- CABEÇALHO -->
+<header style="position:sticky;top:0;z-index:10;background:#ffffff;border-bottom:1px solid #E1E7F2">
+<div class="wrap" style="display:flex;align-items:center;justify-content:space-between;gap:24px;height:80px">
+<a href="../index.html" aria-label="Gerir Frota, ir para o site" style="display:flex;align-items:center">
+<img src="../assets/logo-completo.png" alt="Gerir Frota" style="height:52px;width:auto;display:block">
+</a>
+<nav class="nav" aria-label="Principal" style="display:flex;gap:30px;font-size:16px">
+<a href="#solucao">A solução</a>
+<a href="#servicos">Serviços</a>
+<a href="#tce">Prestação de contas</a>
+<a href="#empresa">Quem somos</a>
+</nav>
+<div style="display:flex;align-items:center;gap:8px">
+<a class="btn-p hidem" href="#contato" style="min-height:44px;padding:0 22px;font-size:15px">Agende uma demonstração</a>
+</div>
+</div>
+</header>
+
+<!-- HERO -->
+<section id="topo" class="sec" style="padding:80px 0 96px;background:#ffffff">
+<div class="wrap row">
+<div class="col" style="display:flex;flex-direction:column;gap:24px">
+<span class="eyb">Gestão de frota pública municipal</span>
+<h1 class="hd h1" style="margin:0;font-size:60px;line-height:1.05;color:#001F4E">Do abastecimento à prestação de contas.</h1>
+<p style="margin:0;font-size:19px;line-height:1.6;color:#3A4566;max-width:540px">Gestão, controle e rastreabilidade da frota da administração pública municipal, em um sistema 100% web, sem instalar programas.</p>
+<div style="display:flex;flex-wrap:wrap;gap:14px">
+<a class="btn-p" href="#contato">Agende uma demonstração</a>
+<a class="btn-o" href="#solucao">Conheça o sistema</a>
+</div>
+<p style="margin:0;font-size:15px;color:#4B5675">Prefeituras · Câmaras Municipais · Secretarias · Fundos · Autarquias</p>
+</div>
+<div class="col">
+<div style="border-radius:28px;overflow:hidden;background:#0B4FD8;box-shadow:0 30px 60px rgba(10,33,80,0.22)">
+<img src="../assets/marca-gerir-frota.jpg" alt="Marca Gerir Frota" style="display:block;width:100%;height:auto">
+</div>
+</div>
+</div>
+</section>
+
+<!-- MUITO ALÉM -->
+<section id="solucao" class="sec" style="padding:96px 0;background:#F2F5FA">
+<div class="wrap" style="display:flex;flex-direction:column;gap:56px">
+<div class="row" style="align-items:flex-start">
+<div class="col" style="display:flex;flex-direction:column;gap:20px">
+<span class="eyb">A solução</span>
+<h2 class="hd h2" style="margin:0;font-size:44px;line-height:1.1;color:#001F4E">Muito além da autorização de combustível</h2>
+<p style="margin:0;font-size:18px;line-height:1.65;color:#3A4566">O Gerir Frota acompanha a despesa da frota pública do momento em que o abastecimento é autorizado até a planilha enviada ao Tribunal de Contas. Acesso pelo navegador, no computador ou no celular, sem necessidade de infraestrutura local de TI.</p>
+<div><a class="btn-p" href="#contato">Quero conhecer</a></div>
+</div>
+<div class="col" style="display:flex;justify-content:center">
+<figure style="margin:0;display:flex;flex-direction:column;gap:10px;align-items:center">
+<div style="background:#fff;border-radius:20px;padding:16px;box-shadow:0 20px 50px rgba(10,33,80,0.14)">
+<img src="../assets/tela-login.jpg" alt="Tela de acesso ao sistema Gerir Frota" style="display:block;width:300px;max-width:100%;height:auto;border-radius:10px">
+</div>
+<figcaption style="font-size:14px;color:#4B5675">Tela de acesso ao sistema</figcaption>
+</figure>
+</div>
+</div>
+
+<div class="grid3">
+<div style="display:flex;flex-direction:column;gap:12px">
+<div class="ico"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"></rect><path d="M3 9h18M8 4v5"></path></svg></div>
+<h3 class="hd" style="margin:0;font-size:22px;color:#005FCC">Controle</h3>
+<p style="margin:0;font-size:16px;line-height:1.6;color:#3A4566">As informações da frota em um único lugar.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px">
+<div class="ico"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"></path><circle cx="12" cy="12" r="3"></circle></svg></div>
+<h3 class="hd" style="margin:0;font-size:22px;color:#005FCC">Transparência</h3>
+<p style="margin:0;font-size:16px;line-height:1.6;color:#3A4566">Histórico de cada abastecimento, manutenção e despesa.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px">
+<div class="ico"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><path d="M14 3v6h6M8 13h8M8 17h5"></path></svg></div>
+<h3 class="hd" style="margin:0;font-size:22px;color:#005FCC">Gestão contratual</h3>
+<p style="margin:0;font-size:16px;line-height:1.6;color:#3A4566">Consumo e saldo acompanhados por fornecedor.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px">
+<div class="ico"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7-7l-1.7 1.7"></path><path d="M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7 7l1.7-1.7"></path></svg></div>
+<h3 class="hd" style="margin:0;font-size:22px;color:#005FCC">Rastreabilidade</h3>
+<p style="margin:0;font-size:16px;line-height:1.6;color:#3A4566">Abastecimentos ligados às notas fiscais e aos empenhos.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px">
+<div class="ico"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h16M4 18h16"></path><circle cx="8" cy="6" r="1.5"></circle><circle cx="16" cy="12" r="1.5"></circle><circle cx="10" cy="18" r="1.5"></circle></svg></div>
+<h3 class="hd" style="margin:0;font-size:22px;color:#005FCC">Padronização</h3>
+<p style="margin:0;font-size:16px;line-height:1.6;color:#3A4566">Um mesmo procedimento para autorizar, abastecer e manter.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px">
+<div class="ico"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 4.5-3.4 8.2-8 9-4.6-.8-8-4.5-8-9V6z"></path><path d="M8.5 12l2.5 2.5 4.5-5"></path></svg></div>
+<h3 class="hd" style="margin:0;font-size:22px;color:#005FCC">Conformidade</h3>
+<p style="margin:0;font-size:16px;line-height:1.6;color:#3A4566">Planilhas de frota prontas para o TCE-PI.</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- O QUE A GESTÃO EXIGE -->
+<section class="sec" style="padding:96px 0;background:#ffffff">
+<div class="wrap" style="display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;flex-direction:column;gap:16px;max-width:760px">
+<span class="eyb">O ponto de partida</span>
+<h2 class="hd h2" style="margin:0;font-size:44px;line-height:1.1;color:#001F4E">O que a gestão da frota exige</h2>
+<p style="margin:0;font-size:18px;line-height:1.65;color:#3A4566">Autorizar o abastecimento é só o ponto de partida. Quem administra a frota pública também precisa responder a três perguntas.</p>
+</div>
+<div class="grid3">
+<div class="card" style="display:flex;flex-direction:column;gap:12px">
+<span class="hd" style="font-size:40px;color:#005FCC;line-height:1">01</span>
+<h3 class="hd" style="margin:0;font-size:22px;color:#001F4E">Quanto cada secretaria consumiu?</h3>
+<p style="margin:0;font-size:16px;line-height:1.6;color:#3A4566">Litros, valores e veículos por unidade administrativa.</p>
+</div>
+<div class="card" style="display:flex;flex-direction:column;gap:12px">
+<span class="hd" style="font-size:40px;color:#005FCC;line-height:1">02</span>
+<h3 class="hd" style="margin:0;font-size:22px;color:#001F4E">Qual é o saldo do contrato?</h3>
+<p style="margin:0;font-size:16px;line-height:1.6;color:#3A4566">O que já foi consumido e o que ainda resta por fornecedor.</p>
+</div>
+<div class="card" style="display:flex;flex-direction:column;gap:12px">
+<span class="hd" style="font-size:40px;color:#005FCC;line-height:1">03</span>
+<h3 class="hd" style="margin:0;font-size:22px;color:#001F4E">A prestação de contas fecha?</h3>
+<p style="margin:0;font-size:16px;line-height:1.6;color:#3A4566">A mesma base que opera a frota precisa atender ao Tribunal de Contas.</p>
+</div>
+</div>
+<div style="background:#001F4E;color:#fff;padding:32px;display:flex;flex-direction:column;gap:10px">
+<span style="font-size:13px;font-weight:700;letter-spacing:0.22em;color:#9DB8E8">O RESULTADO</span>
+<p class="hd" style="margin:0;font-size:24px;line-height:1.4;font-weight:600">Quem opera registra uma vez, quem administra enxerga o gasto e quem fiscaliza encontra o caminho inteiro em um só lugar.</p>
+</div>
+</div>
+</section>
+
+<!-- TRÊS MÓDULOS -->
+<section class="sec" style="padding:96px 0;background:#F2F5FA">
+<div class="wrap" style="display:flex;flex-direction:column;gap:48px;align-items:center;text-align:center">
+<div style="display:flex;flex-direction:column;gap:16px;max-width:700px;align-items:center">
+<span class="eyb">Três módulos integrados</span>
+<h2 class="hd h2" style="margin:0;font-size:44px;line-height:1.1;color:#001F4E">A informação é registrada uma vez e reaproveitada até o Tribunal de Contas</h2>
+<p style="margin:0;font-size:18px;line-height:1.6;color:#3A4566">O que é cadastrado alimenta a operação, e o que é operado alimenta a análise e a prestação de contas.</p>
+</div>
+<div class="grid3" style="width:100%;text-align:left">
+<div class="card" style="background:#fff;display:flex;flex-direction:column;gap:16px">
+<div style="display:flex;align-items:center;gap:14px"><div class="ico"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="6" rx="8" ry="3"></ellipse><path d="M4 6v6c0 1.7 3.6 3 8 3s8-1.3 8-3V6M4 12v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6"></path></svg></div><h3 class="hd" style="margin:0;font-size:24px;color:#001F4E">Cadastros</h3></div>
+<ul class="chk" style="font-size:16px;gap:10px"><li>Entidade e secretarias</li><li>Usuários e perfis</li><li>Veículos</li><li>Fornecedores</li><li>Contratos</li></ul>
+</div>
+<div class="card" style="background:#fff;display:flex;flex-direction:column;gap:16px">
+<div style="display:flex;align-items:center;gap:14px"><div class="ico"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21V5a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v16"></path><path d="M3 21h13M7 8h5"></path><path d="M15 10h2a2 2 0 0 1 2 2v4a1.5 1.5 0 0 0 3 0V8l-3-3"></path></svg></div><h3 class="hd" style="margin:0;font-size:24px;color:#001F4E">Operação</h3></div>
+<ul class="chk" style="font-size:16px;gap:10px"><li>Autorizações</li><li>Abastecimentos</li><li>Ordens de fornecimento</li><li>Termos de recebimento</li><li>Manutenções</li></ul>
+</div>
+<div class="card" style="background:#fff;display:flex;flex-direction:column;gap:16px">
+<div style="display:flex;align-items:center;gap:14px"><div class="ico"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"></path></svg></div><h3 class="hd" style="margin:0;font-size:24px;color:#001F4E">Análise</h3></div>
+<ul class="chk" style="font-size:16px;gap:10px"><li>Painel gerencial</li><li>Relatórios</li><li>Saldos de contrato</li><li>Notas fiscais e empenhos</li><li>Planilhas para o TCE-PI</li></ul>
+</div>
+</div>
+<a class="btn-p" href="#contato">Quero conhecer</a>
+</div>
+</section>
+
+<!-- AUTORIZAÇÃO E ABASTECIMENTO -->
+<section id="servicos" class="sec" style="padding:96px 0;background:#ffffff">
+<div class="wrap row">
+<div class="col" style="display:flex;flex-direction:column;gap:20px">
+<span class="eyb">Serviços · Operação</span>
+<h2 class="hd h2" style="margin:0;font-size:42px;line-height:1.1;color:#001F4E">Autorização e abastecimento com QR Code</h2>
+<p style="margin:0;font-size:18px;line-height:1.65;color:#3A4566">Cada abastecimento nasce de uma autorização identificada, emitida com QR Code e validada no posto no ato do abastecimento.</p>
+<ul class="chk">
+<li><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" style="flex:none"><circle cx="12" cy="12" r="11" fill="#005FCC"></circle><path d="M7 12.5l3.2 3L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"></path></svg>Autorização com veículo, combustível, quantidade, valor estimado, fornecedor e responsável</li>
+<li><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" style="flex:none"><circle cx="12" cy="12" r="11" fill="#005FCC"></circle><path d="M7 12.5l3.2 3L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"></path></svg>Registro de litros, valores e quilometragem a cada abastecimento</li>
+<li><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" style="flex:none"><circle cx="12" cy="12" r="11" fill="#005FCC"></circle><path d="M7 12.5l3.2 3L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"></path></svg>Acesso individual com perfil próprio, período definido e limite de valor para autorizar despesas</li>
+<li><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" style="flex:none"><circle cx="12" cy="12" r="11" fill="#005FCC"></circle><path d="M7 12.5l3.2 3L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"></path></svg>Impressão em impressora térmica ou autorização sem papel, já visível para o posto</li>
+</ul>
+<div style="display:flex;flex-wrap:wrap;gap:14px;padding-top:6px"><a class="btn-p" href="#contato">Quero conhecer</a><a class="btn-o" href="#contato">Saiba mais</a></div>
+</div>
+<div class="col" style="display:flex;justify-content:center">
+<figure style="margin:0;position:relative;width:100%;max-width:440px;display:flex;flex-direction:column;align-items:center;gap:10px">
+<img src="../assets/autorizacao-qrcode.webp" alt="QR Code de uma autorização de abastecimento" style="position:relative;display:block;width:78%;height:auto;border-radius:14px;box-shadow:0 24px 50px rgba(10,33,80,0.25);margin-top:24px">
+<figcaption style="position:relative;font-size:14px;color:#4B5675">Autorização com QR Code no celular</figcaption>
+</figure>
+</div>
+</div>
+</section>
+
+<!-- SALDO DOS CONTRATOS -->
+<section class="sec" style="padding:96px 0;background:#F2F5FA">
+<div class="wrap" style="display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;flex-direction:column;gap:16px;max-width:780px">
+<span class="eyb">Serviços · Gestão contratual</span>
+<h2 class="hd h2" style="margin:0;font-size:42px;line-height:1.1;color:#001F4E">Controle do saldo dos contratos</h2>
+<p style="margin:0;font-size:18px;line-height:1.65;color:#3A4566">O sistema mostra, por fornecedor e por combustível, quanto foi contratado, quanto já foi consumido e quanto ainda está disponível. Preço por litro acompanhando o contrato.</p>
+</div>
+<div style="display:flex;flex-wrap:wrap;align-items:stretch;gap:16px">
+<div class="card" style="flex:1 1 240px;background:#fff;border-top-color:#001F4E;display:flex;flex-direction:column;gap:8px">
+<h3 class="hd" style="margin:0;font-size:22px;color:#001F4E">Valor contratado</h3>
+<p style="margin:0;font-size:16px;color:#3A4566">Por fornecedor e por combustível.</p>
+</div>
+<span aria-hidden="true" class="hd" style="align-self:center;font-size:40px;color:#005FCC">−</span>
+<div class="card" style="flex:1 1 240px;background:#fff;border-top-color:#001F4E;display:flex;flex-direction:column;gap:8px">
+<h3 class="hd" style="margin:0;font-size:22px;color:#001F4E">Consumido</h3>
+<p style="margin:0;font-size:16px;color:#3A4566">Atualizado a cada abastecimento.</p>
+</div>
+<span aria-hidden="true" class="hd" style="align-self:center;font-size:40px;color:#005FCC">=</span>
+<div class="card" style="flex:1 1 240px;background:#001F4E;display:flex;flex-direction:column;gap:8px">
+<h3 class="hd" style="margin:0;font-size:22px;color:#ffffff">Saldo disponível</h3>
+<p style="margin:0;font-size:16px;color:#C9D6EE">Visível antes da próxima autorização.</p>
+</div>
+</div>
+<div style="display:flex;flex-wrap:wrap;gap:24px;align-items:center;justify-content:space-between">
+<p class="hd" style="margin:0;font-size:22px;line-height:1.4;color:#001F4E;font-weight:600;max-width:720px">O gestor conhece o saldo antes de autorizar e consegue planejar aditivos e novas contratações com antecedência.</p>
+<a class="btn-o" href="#contato">Saiba mais</a>
+</div>
+</div>
+</section>
+
+<!-- RASTREABILIDADE -->
+<section class="sec" style="padding:96px 0;background:#ffffff">
+<div class="wrap" style="display:flex;flex-direction:column;gap:44px">
+<div style="display:flex;flex-direction:column;gap:16px;max-width:780px">
+<span class="eyb">Serviços · Rastreabilidade</span>
+<h2 class="hd h2" style="margin:0;font-size:42px;line-height:1.1;color:#001F4E">Cada abastecimento ligado à nota fiscal e ao empenho</h2>
+<p style="margin:0;font-size:18px;line-height:1.65;color:#3A4566">A despesa pode ser seguida do litro abastecido ao documento contábil, nesta sequência.</p>
+</div>
+<ol class="grid5" style="list-style:none;margin:0;padding:0">
+<li style="display:flex;flex-direction:column;gap:10px;padding:22px;background:#F2F5FA;border-top:4px solid #005FCC"><span class="hd" style="font-size:34px;color:#005FCC;line-height:1">1</span><strong class="hd" style="font-size:19px;color:#001F4E">Autorização e abastecimento</strong><span style="font-size:15px;line-height:1.55;color:#3A4566">A autorização identificada dá origem ao registro do abastecimento.</span></li>
+<li style="display:flex;flex-direction:column;gap:10px;padding:22px;background:#F2F5FA;border-top:4px solid #005FCC"><span class="hd" style="font-size:34px;color:#005FCC;line-height:1">2</span><strong class="hd" style="font-size:19px;color:#001F4E">Ordem de fornecimento</strong><span style="font-size:15px;line-height:1.55;color:#3A4566">Emitida no próprio sistema.</span></li>
+<li style="display:flex;flex-direction:column;gap:10px;padding:22px;background:#F2F5FA;border-top:4px solid #005FCC"><span class="hd" style="font-size:34px;color:#005FCC;line-height:1">3</span><strong class="hd" style="font-size:19px;color:#001F4E">Empenho</strong><span style="font-size:15px;line-height:1.55;color:#3A4566">Vinculado aos abastecimentos correspondentes.</span></li>
+<li style="display:flex;flex-direction:column;gap:10px;padding:22px;background:#F2F5FA;border-top:4px solid #005FCC"><span class="hd" style="font-size:34px;color:#005FCC;line-height:1">4</span><strong class="hd" style="font-size:19px;color:#001F4E">Nota fiscal</strong><span style="font-size:15px;line-height:1.55;color:#3A4566">Vinculada aos abastecimentos correspondentes.</span></li>
+<li style="display:flex;flex-direction:column;gap:10px;padding:22px;background:#001F4E;border-top:4px solid #005FCC"><span class="hd" style="font-size:34px;color:#7FB0F5;line-height:1">5</span><strong class="hd" style="font-size:19px;color:#ffffff">Termo de recebimento</strong><span style="font-size:15px;line-height:1.55;color:#C9D6EE">Emitido no próprio sistema, registra o que foi fornecido.</span></li>
+</ol>
+<p class="hd" style="margin:0;font-size:22px;color:#001F4E;font-weight:600">Quem fiscaliza encontra o caminho inteiro da despesa em um só lugar.</p>
+</div>
+</section>
+
+<!-- MANUTENÇÕES E PAINEL -->
+<section class="sec" style="padding:96px 0;background:#F2F5FA">
+<div class="wrap row" style="flex-direction:row-reverse">
+<div class="col" style="display:flex;flex-direction:column;gap:20px">
+<span class="eyb">Serviços · Manutenção e análise</span>
+<h2 class="hd h2" style="margin:0;font-size:42px;line-height:1.1;color:#001F4E">Manutenções, painel e relatórios</h2>
+<p style="margin:0;font-size:18px;line-height:1.65;color:#3A4566">O sistema guarda o histórico de manutenção de cada veículo, registrado a partir de uma autorização ou manualmente, e acompanhado por veículo, secretaria, oficina, status e período.</p>
+<div style="display:flex;flex-wrap:wrap;gap:8px">
+<span style="padding:8px 16px;background:#fff;border:1px solid #D3DCEC;font-weight:600;color:#001F4E;font-size:15px">Preventiva</span>
+<span style="padding:8px 16px;background:#fff;border:1px solid #D3DCEC;font-weight:600;color:#001F4E;font-size:15px">Corretiva</span>
+<span style="padding:8px 16px;background:#fff;border:1px solid #D3DCEC;font-weight:600;color:#001F4E;font-size:15px">Revisão</span>
+<span style="padding:8px 16px;background:#fff;border:1px solid #D3DCEC;font-weight:600;color:#001F4E;font-size:15px">Sinistro</span>
+<span style="padding:8px 16px;background:#fff;border:1px solid #D3DCEC;font-weight:600;color:#001F4E;font-size:15px">Outros</span>
+</div>
+<p style="margin:0;font-size:18px;line-height:1.65;color:#3A4566">O painel reúne veículos ativos, abastecimentos, manutenções, quilômetros rodados, gastos por categoria e consumo por secretaria e por combustível. Os relatórios saem em PDF e Excel.</p>
+<div style="display:flex;flex-wrap:wrap;gap:14px"><a class="btn-p" href="#contato">Quero conhecer</a><a class="btn-o" href="#contato">Saiba mais</a></div>
+</div>
+<div class="col" style="display:flex;justify-content:center">
+<figure style="margin:0;display:flex;flex-direction:column;gap:10px;align-items:center;width:100%;max-width:520px">
+<div style="background:#fff;border-radius:20px;padding:16px;box-shadow:0 20px 50px rgba(10,33,80,0.14);width:100%;box-sizing:border-box">
+<img src="../assets/painel-graficos.webp" alt="Notebook com os gráficos do painel do Gerir Frota e celular com o consumo por secretaria" style="display:block;width:100%;height:auto;border-radius:12px">
+</div>
+<figcaption style="font-size:14px;color:#4B5675">Painel com consumo por secretaria e evolução mensal</figcaption>
+</figure>
+</div>
+</div>
+</section>
+
+<!-- TCE-PI -->
+<section id="tce" class="sec" style="padding:96px 0;background:#ffffff">
+<div class="wrap row" style="align-items:flex-start">
+<div class="col" style="display:flex;flex-direction:column;gap:20px">
+<span class="eyb">Serviços · Prestação de contas</span>
+<h2 class="hd h2" style="margin:0;font-size:42px;line-height:1.1;color:#001F4E">Planilhas direto para o TCE-PI</h2>
+<p style="margin:0;font-size:18px;line-height:1.65;color:#3A4566">As planilhas de frota saem no layout do Tribunal de Contas do Estado do Piauí, a partir da mesma base usada na operação diária, sem redigitação.</p>
+<div style="display:flex;flex-direction:column">
+<div style="background:#001F4E;color:#fff;padding:14px 20px;font-weight:700">Relatórios gerados</div>
+<div style="padding:14px 20px;border-bottom:1px solid #E1E7F2;font-weight:600;color:#001F4E">Abastecimento de Veículos</div>
+<div style="padding:14px 20px;border-bottom:1px solid #E1E7F2;font-weight:600;color:#001F4E">Veículos Próprios e Cedidos</div>
+<div style="padding:14px 20px;border-bottom:1px solid #E1E7F2;font-weight:600;color:#001F4E">Veículos Locados e Sublocados</div>
+</div>
+</div>
+<div class="col" style="display:flex;flex-direction:column;gap:16px">
+<h3 class="hd" style="margin:0;font-size:24px;color:#001F4E">Antes do envio</h3>
+<div class="card" style="display:flex;gap:18px;align-items:flex-start"><span class="hd" style="font-size:34px;color:#005FCC;line-height:1">1</span><div style="display:flex;flex-direction:column;gap:4px"><strong class="hd" style="font-size:20px;color:#001F4E">Valida</strong><span style="font-size:16px;color:#3A4566">O sistema confere as informações das planilhas.</span></div></div>
+<div class="card" style="display:flex;gap:18px;align-items:flex-start"><span class="hd" style="font-size:34px;color:#005FCC;line-height:1">2</span><div style="display:flex;flex-direction:column;gap:4px"><strong class="hd" style="font-size:20px;color:#001F4E">Aponta</strong><span style="font-size:16px;color:#3A4566">Erros e avisos aparecem para correção.</span></div></div>
+<div class="card" style="display:flex;gap:18px;align-items:flex-start"><span class="hd" style="font-size:34px;color:#005FCC;line-height:1">3</span><div style="display:flex;flex-direction:column;gap:4px"><strong class="hd" style="font-size:20px;color:#001F4E">Gera</strong><span style="font-size:16px;color:#3A4566">PDF para conferência e CSV no layout do Tribunal.</span></div></div>
+<div style="display:flex;flex-wrap:wrap;gap:14px;padding-top:6px"><a class="btn-p" href="#contato">Quero conhecer</a></div>
+</div>
+</div>
+</section>
+
+<!-- FAIXA -->
+<section class="sec" style="padding:80px 0;background:#001F4E">
+<div class="wrap" style="display:flex;flex-direction:column;gap:6px">
+<p class="hd h2" style="margin:0;font-size:40px;line-height:1.25;color:#ffffff">Controle para quem opera.</p>
+<p class="hd h2" style="margin:0;font-size:40px;line-height:1.25;color:#ffffff">Informação para quem administra.</p>
+<p class="hd h2" style="margin:0;font-size:40px;line-height:1.25;color:#7FB0F5">Transparência para quem fiscaliza.</p>
+</div>
+</section>
+
+<!-- COMO TRABALHAMOS -->
+<section class="sec" style="padding:96px 0;background:#ffffff">
+<div class="wrap" style="display:flex;flex-direction:column;gap:44px">
+<div style="display:flex;flex-direction:column;gap:16px;max-width:760px">
+<span class="eyb">Como trabalhamos</span>
+<h2 class="hd h2" style="margin:0;font-size:42px;line-height:1.1;color:#001F4E">Da demonstração ao suporte</h2>
+<p style="margin:0;font-size:18px;line-height:1.65;color:#3A4566">Licença de uso, implantação, treinamento e suporte fazem parte do mesmo contrato.</p>
+</div>
+<ol class="grid5" style="list-style:none;margin:0;padding:0">
+<li style="display:flex;flex-direction:column;gap:12px;align-items:flex-start"><div class="ico"><span class="hd" style="font-size:22px">1</span></div><strong class="hd" style="font-size:20px;color:#005FCC">Demonstração</strong><span style="font-size:15px;line-height:1.55;color:#3A4566">Apresentação do sistema ao órgão interessado.</span></li>
+<li style="display:flex;flex-direction:column;gap:12px;align-items:flex-start"><div class="ico"><span class="hd" style="font-size:22px">2</span></div><strong class="hd" style="font-size:20px;color:#005FCC">Licença de uso</strong><span style="font-size:15px;line-height:1.55;color:#3A4566">Acesso ao sistema em regime SaaS, pelo navegador.</span></li>
+<li style="display:flex;flex-direction:column;gap:12px;align-items:flex-start"><div class="ico"><span class="hd" style="font-size:22px">3</span></div><strong class="hd" style="font-size:20px;color:#005FCC">Implantação</strong><span style="font-size:15px;line-height:1.55;color:#3A4566">Parametrização inicial e migração dos dados cadastrais.</span></li>
+<li style="display:flex;flex-direction:column;gap:12px;align-items:flex-start"><div class="ico"><span class="hd" style="font-size:22px">4</span></div><strong class="hd" style="font-size:20px;color:#005FCC">Treinamento</strong><span style="font-size:15px;line-height:1.55;color:#3A4566">Capacitação das equipes de operação e de gestão.</span></li>
+<li style="display:flex;flex-direction:column;gap:12px;align-items:flex-start"><div class="ico"><span class="hd" style="font-size:22px">5</span></div><strong class="hd" style="font-size:20px;color:#005FCC">Suporte</strong><span style="font-size:15px;line-height:1.55;color:#3A4566">Atendimento contínuo durante a vigência do contrato.</span></li>
+</ol>
+</div>
+</section>
+
+<!-- QUEM SOMOS -->
+<section id="empresa" class="sec" style="padding:96px 0;background:#F2F5FA">
+<div class="wrap row" style="align-items:flex-start">
+<div class="col" style="display:flex;flex-direction:column;gap:20px">
+<span class="eyb">A empresa</span>
+<h2 class="hd h2" style="margin:0;font-size:42px;line-height:1.1;color:#001F4E">Quem somos</h2>
+<p style="margin:0;font-size:18px;line-height:1.65;color:#3A4566">A R Soares Martins é a empresa responsável pelo Gerir Frota. Com endereço em Teresina, Piauí, atendemos órgãos e entidades municipais que precisam controlar a despesa da frota e prestar contas ao Tribunal de Contas do Estado do Piauí (TCE-PI).</p>
+</div>
+<div class="col" style="display:flex;flex-direction:column;gap:16px">
+<div class="card" style="background:#fff;display:flex;flex-direction:column;gap:8px">
+<h3 class="hd" style="margin:0;font-size:21px;color:#001F4E">Área de atuação</h3>
+<p style="margin:0;font-size:16px;line-height:1.6;color:#3A4566">Gestão de frota pública municipal: autorização de abastecimento, controle de contratos, manutenções, relatórios e prestação de contas.</p>
+</div>
+<div class="card" style="background:#fff;display:flex;flex-direction:column;gap:8px">
+<h3 class="hd" style="margin:0;font-size:21px;color:#001F4E">Quem atendemos</h3>
+<p style="margin:0;font-size:16px;line-height:1.6;color:#3A4566">Prefeituras, Câmaras Municipais, Secretarias, Fundos e Autarquias.</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- CONTATO -->
+<section id="contato" class="sec" style="padding:96px 0;background:#ffffff">
+<div class="wrap">
+<div style="background:#001F4E;border-radius:24px;padding:56px 40px;display:flex;flex-wrap:wrap;gap:48px;align-items:center">
+<div style="flex:1 1 380px;min-width:0;display:flex;flex-direction:column;gap:18px">
+<span style="font-size:13px;font-weight:700;letter-spacing:0.22em;color:#9DB8E8">CONTATO</span>
+<h2 class="hd h2" style="margin:0;font-size:44px;line-height:1.1;color:#ffffff">Agende uma demonstração</h2>
+<p style="margin:0;font-size:18px;line-height:1.6;color:#C9D6EE">Fale com a nossa equipe e conheça o Gerir Frota em funcionamento.</p>
+<div><a class="btn-w" href="https://wa.me/5586981147383?text=Ol%C3%A1!%20Quero%20agendar%20uma%20demonstra%C3%A7%C3%A3o%20do%20Gerir%20Frota.">Falar no WhatsApp</a></div>
+</div>
+<div style="flex:1 1 380px;min-width:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 32px">
+<div style="display:flex;flex-direction:column;gap:6px"><span style="font-size:12px;font-weight:700;letter-spacing:0.2em;color:#9DB8E8">WHATSAPP</span><a href="https://wa.me/5586981147383?text=Ol%C3%A1!%20Quero%20agendar%20uma%20demonstra%C3%A7%C3%A3o%20do%20Gerir%20Frota." class="hd" style="color:#fff;font-size:20px;text-decoration:none">(86) 98114-7383</a></div>
+<div style="display:flex;flex-direction:column;gap:6px;min-width:0"><span style="font-size:12px;font-weight:700;letter-spacing:0.2em;color:#9DB8E8">E-MAIL</span><a href="mailto:gerirfrota@outlook.com" class="hd" style="color:#fff;font-size:20px;text-decoration:none;overflow-wrap:anywhere">gerirfrota@outlook.com</a></div>
+<div style="display:flex;flex-direction:column;gap:6px;min-width:0"><span style="font-size:12px;font-weight:700;letter-spacing:0.2em;color:#9DB8E8">INSTAGRAM</span><a href="https://instagram.com/rmassessoriacontabi" class="hd" style="color:#fff;font-size:20px;text-decoration:none;overflow-wrap:anywhere">@rmassessoriacontabi</a></div>
+<div style="display:flex;flex-direction:column;gap:6px"><span style="font-size:12px;font-weight:700;letter-spacing:0.2em;color:#9DB8E8">ENDEREÇO</span><span style="color:#fff;font-size:16px;line-height:1.5">Av. Dom Severino, 3466<br>CEP 64055-305, Teresina, PI</span></div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- RODAPÉ -->
+<footer class="foot" style="background:#071838;color:#C9D6EE;padding:64px 0 120px">
+<div class="wrap" style="display:flex;flex-direction:column;gap:44px">
+<div style="display:flex;flex-wrap:wrap;gap:48px">
+<div style="flex:1 1 240px;display:flex;flex-direction:column;gap:16px">
+<span class="hd" style="font-size:30px;color:#fff">gerir<span style="color:#4A8EF0">frota</span></span>
+<p style="margin:0;font-size:15px;line-height:1.6">Do abastecimento à prestação de contas.</p>
+</div>
+<div style="flex:1 1 200px;display:flex;flex-direction:column;gap:12px;font-size:15px">
+<h3 class="hd" style="margin:0 0 6px;font-size:19px;color:#fff">A solução</h3>
+<a href="../o-sistema.html">O que é o Gerir Frota</a><a href="../servicos.html">Serviços</a><a href="../prestacao-de-contas.html">Planilhas para o TCE-PI</a>
+</div>
+<div style="flex:1 1 200px;display:flex;flex-direction:column;gap:12px;font-size:15px">
+<h3 class="hd" style="margin:0 0 6px;font-size:19px;color:#fff">Para quem</h3>
+<span>Prefeituras</span><span>Câmaras Municipais</span><span>Secretarias, Fundos e Autarquias</span>
+</div>
+<div style="flex:1 1 200px;display:flex;flex-direction:column;gap:12px;font-size:15px">
+<h3 class="hd" style="margin:0 0 6px;font-size:19px;color:#fff">Contato</h3>
+<a href="https://wa.me/5586981147383?text=Ol%C3%A1!%20Quero%20agendar%20uma%20demonstra%C3%A7%C3%A3o%20do%20Gerir%20Frota.">WhatsApp</a><a href="mailto:gerirfrota@outlook.com">E-mail</a><a href="https://instagram.com/rmassessoriacontabi">Instagram</a>
+</div>
+</div>
+<div style="border-top:1px solid #23396B;padding-top:24px;font-size:14px;line-height:1.6">R Soares Martins · CNPJ 41.317.780/0001-85 · Av. Dom Severino, 3466, Teresina, PI · © 2026 Gerir Frota. Todos os direitos reservados.</div>
+</div>
+</footer>
+
+<!-- BOTÃO FIXO WHATSAPP -->
+<div style="position:fixed;left:0;right:0;bottom:16px;z-index:20;display:flex;justify-content:center;padding:0 16px;pointer-events:none">
+<a href="https://wa.me/5586981147383?text=Ol%C3%A1!%20Quero%20agendar%20uma%20demonstra%C3%A7%C3%A3o%20do%20Gerir%20Frota." style="pointer-events:auto;display:flex;align-items:center;justify-content:center;gap:10px;width:100%;max-width:420px;min-height:56px;border-radius:999px;background:#15803D;color:#fff;font-weight:700;font-size:18px;text-decoration:none;box-shadow:0 10px 24px rgba(0,0,0,0.22)">
+<svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.5 11.6a8.5 8.5 0 0 1-12.6 7.4L3.5 20.5l1.6-4.2A8.5 8.5 0 1 1 20.5 11.6z"></path><path d="M9 9.5c.3 1.8 1.7 3.6 3.6 4.5"></path></svg>
+Quero conhecer
+</a>
+</div>
+
+</div>
+</body>
+</html>
